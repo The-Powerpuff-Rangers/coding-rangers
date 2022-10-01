@@ -47,7 +47,7 @@ public class Movement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "tile")
+        if (collision.gameObject.tag == "tile"|| collision.gameObject.tag == "lift")
             grounded = true;
     }
 }
