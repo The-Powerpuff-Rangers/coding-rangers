@@ -1,0 +1,33 @@
+{
+
+    "level1" : {
+        "value" : "main",
+        "description" : "The main function is called by the operating system by which our code is executed. We can make n number of function in a single program but we can make only one main function in a single program. Every program has only one main function."
+    },
+
+    "level2" : {
+        "value" : "int",
+        "description" : "The keyword used for integer data types is int. Integers typically require 4 bytes of memory space and range from -2147483648 to 2147483647."
+    },
+
+    "level3" : {
+        "value" : "char",
+        "description" : "Character data type is used for storing characters. The keyword used for the character data type is char. Characters typically require 1 byte of memory space and range from -128 to 127 or 0 to 255."
+    },
+
+    "level4" : {
+        "value" : "bool",
+        "description" : "Boolean data type is used for storing Boolean or logical values. A Boolean variable can store either true or false. The keyword used for the Boolean data type is bool."
+    },
+
+    "level5" : {
+        "value" : "while",
+        "description" : "A while loop evaluates the condition. If the condition evaluates to true, the code inside the while loop is executed.The condition is evaluated again.This process continues until the condition is false.When the condition evaluates to false, the loop terminates."
+    },
+
+    "level6" : {
+        "value" : "for",
+        "description" :"A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times."
+    }
+
+}
