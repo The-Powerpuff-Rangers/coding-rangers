@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour
             Jump();
 
         //sets animation parameters
-        anim.SetBool("run", horizontalInput != 0);
+        anim.SetBool("Run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
     }
 
