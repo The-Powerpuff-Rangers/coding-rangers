@@ -1,13 +1,8 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Animations.meta
 guid: 97396300c706f564f8473a8beaa00e61
-folderAsset: yes
-DefaultImporter:
-========
-guid: b98be3590b70f1f42bec47b52051b0c2
 NativeFormatImporter:
->>>>>>>> 0f07422cd970d156302693f663926f63cda82499:Assets/Animations/Player.controller.meta
   externalObjects: {}
+  mainObjectFileID: 9100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

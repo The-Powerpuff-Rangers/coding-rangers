@@ -33,9 +33,12 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && grounded)
             Jump();
 
+        Vector3 newRotation = new Vector3(0, 0, 0);
+        transform.eulerAngles = newRotation;
+
         //sets animation parameters
         anim.SetBool("Run", horizontalInput != 0);
-        anim.SetBool("grounded", grounded);
+        anim.SetBool("grounded", grounded);     
     }
 
     private void Jump()
