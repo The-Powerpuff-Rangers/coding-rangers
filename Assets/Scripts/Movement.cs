@@ -27,9 +27,7 @@ public class Movement : MonoBehaviour
             transform.localScale = new Vector3(-4, 4, 4);
 
         if (Input.GetKey(KeyCode.Space) && grounded)
-        {
             Jump();
-        }
 
         Vector3 newRotation = new Vector3(0, 0, 0);
         transform.eulerAngles = newRotation;
@@ -50,7 +48,6 @@ public class Movement : MonoBehaviour
     {
         if (collision.gameObject.tag == "tile" || collision.gameObject.tag == "lift")
             grounded = true;
-
 
     }
 }
