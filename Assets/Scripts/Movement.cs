@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour
     private Animator anim;
     private bool grounded;
 
+
+
     private void Awake()
     {
         //Grabs references for rigidbody and animator from game object.
@@ -22,17 +24,19 @@ public class Movement : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
-        
+
         RotateLeft();
         //Flip player when facing left/right.
         if (horizontalInput > 0.01f)
-            transform.localScale = new Vector3(4,4,4);
+            transform.localScale = new Vector3(4, 4, 4);
         else if (horizontalInput < -0.01f)
             transform.localScale = new Vector3(-4, 4, 4);
 
         if (Input.GetKey(KeyCode.Space) && grounded)
-            Jump();
+        {
 
+            Jump();
+        }
         //sets animation parameters
         anim.SetBool("Run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
@@ -42,12 +46,16 @@ public class Movement : MonoBehaviour
     {
         body.velocity = new Vector2(body.velocity.x, speed);
         anim.SetTrigger("jump");
+
         grounded = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "tile")
+        {
             grounded = true;
+
+        }
     }
 }
