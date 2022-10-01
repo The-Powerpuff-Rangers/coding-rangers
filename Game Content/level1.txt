@@ -1,0 +1,49 @@
+ADVENTURE 1 
+           ~ Guide for Adventure one ~
+
+HACKING HTML
+
+HTML (or Hypertext Markup Language) is a programming language used to create web pages.
+There are 3 parts that tie into basic HTML structure. Think of these as the “building blocks” of a web page:  
+1. HTML version declaration  
+2. Heading(s)  
+3. Body
+
+5 Important HTML Tags  
+
+* 		The paragraph <P> tag: This tag is responsible for the separation of paragraphs so the content doesn’t run together.  
+* 		The anchor or link <A> tag: This tag creates a hyperlink within the text. Within the code, the link is the attribute.  
+* 		The bold or <STRONG> tag: This tag adds boldness to your text of choice. This doesn’t apply to headings.  
+* 		The italics or <EM> tag: This tag adds italics to your text.  
+* 		The headings 1-6 or <H1>, <H2>, <H3>, <H4>, <H5>, <H6> tags: These tags are used for headings and subheadings on 6 different levels. H1 is the largest and H6 is the smallest.  
+
+One of the simplest thing in HTML is making a form! Let us learn how ^^
+So,
+
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+
+The HTML <input> element is the most used form element.
+An <input> element can be displayed in many ways, depending on the type attribute.
+
+Here are some examples:
+Type	Description
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+
+The <input type="text"> defines a single-line input field for text input.
+
+The <label> tag defines a label for many form elements.
+The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+
+The <input type="submit"> defines a button for submitting the form data to a form-handler.
+Notice that each input field must have a name attribute to be submitted.
+If the name attribute is omitted, the value of the input field will not be sent at all.
+
+The <fieldset> tag is used to group related elements in a form.
+The <fieldset> tag draws a box around the related elements.
+The <legend> tag defines a caption for the  <fieldset> element.
