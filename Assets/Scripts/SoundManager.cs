@@ -10,7 +10,7 @@ public class SoundManager : MonoBehaviour
     private void Awake()
     {
         instance = this; 
-        source = GetComponent<AudioSource_sound>();
+        // source = GetComponent<AudioSource_sound>();
     }
 
     public void PlaySound(AudioClip _sound)

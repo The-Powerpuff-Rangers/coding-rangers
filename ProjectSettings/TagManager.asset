@@ -6,6 +6,10 @@ TagManager:
   tags:
   - tile
   - lift
+  - F
+  - O
+  - R
+  - M
   layers:
   - Default
   - TransparentFX
