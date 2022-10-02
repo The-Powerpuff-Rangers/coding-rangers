@@ -63,7 +63,7 @@ We will also be creating the user database to persist the data and keep track of
 
 ## License
 
-It's the  GPL-3.0 license. For more details, see the https://github.com/The-Powerpuff-Rangers/coding-rangers/blob/master/LICENSE.
+It's the  GPL-3.0 license. For more details, see the <a src="https://github.com/The-Powerpuff-Rangers/coding-rangers/blob/master/LICENSE">license</a>.
 
 ## About Us
 
