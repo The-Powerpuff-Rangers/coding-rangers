@@ -69,4 +69,5 @@ We will also be creating the user database to persist the data and keep track of
 
 We are The Powerpuff Rangers 
 
-<img src = '.github/images/powerpuff.png'>
+![WhatsApp Image 2022-09-30 at 11 15 57 PM](https://user-images.githubusercontent.com/77538369/193437663-2f69c2a4-4f41-43bf-b881-c4d7968b7e06.jpeg)
+
