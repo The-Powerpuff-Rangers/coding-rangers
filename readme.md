@@ -26,7 +26,7 @@ In today's digital age, the curriculum and way of teaching seems to be quite bor
 
 ## What it does?
 
-Code Rangers is an educational game which will help invoke the interest of students in coding. Herein , there are different adventures(levels) , each level introduces the user to a keyword , thus introducing them to the basic syntax or the basic-blocks of programming. Before each level , we display an adventure guide which consists of basic definitions and explanation pf the keywords. Then the fun begins! As the useer moves towards the level , they get a keyword which they have to guess right. Before moving to the next level , we explain the rightly guessed keyword. Isn't it amazing how the user starts learning while playing game that too  without even realising !!
+Code Rangers is an educational game which will help invoke the interest of students in coding. Herein , there are different adventures(levels) , each level introduces the user to a keyword , thus introducing them to the basic syntax or the basic-blocks of programming. Before each level , we display an adventure guide which consists of basic definitions and explanation of the keywords. Then the fun begins! As the user moves towards the level , they get a keyword which they have to guess right. Before moving to the next level , we explain the rightly guessed keyword. Isn't it amazing how the user starts learning while playing game that too  without even realising !!
 We have also built a leaderboard which will maintain the levels of students and will create a healthy competition and kids will want to play more. 
 
 ## How we built it?
