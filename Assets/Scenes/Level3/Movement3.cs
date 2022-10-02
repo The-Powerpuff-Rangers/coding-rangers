@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Movement : MonoBehaviour
+public class Movement3 : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Rigidbody2D body;
@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour
         anim.SetBool("Run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
 
-        if (GameObject.FindGameObjectWithTag("F").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("O").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("R").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("M").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled)
+        if (GameObject.FindGameObjectWithTag("L1").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("A").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("B").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("E").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("L2").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled)
         {
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -63,21 +63,25 @@ public class Movement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "FF" && Input.GetKey(KeyCode.Space))
+        if (collision.gameObject.tag == "LL1" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("F").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("L1").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
-        else if (collision.gameObject.tag == "OO" && Input.GetKey(KeyCode.Space))
+        else if (collision.gameObject.tag == "AA" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("O").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("A").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
-        else if (collision.gameObject.tag == "RR" && Input.GetKey(KeyCode.Space))
+        else if (collision.gameObject.tag == "BB" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("R").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("B").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
-        else if (collision.gameObject.tag == "MM" && Input.GetKey(KeyCode.Space))
+        else if (collision.gameObject.tag == "EE" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("M").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("E").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+        }
+        else if (collision.gameObject.tag == "LL2" && Input.GetKey(KeyCode.Space))
+        {
+            GameObject.FindGameObjectWithTag("L2").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
 
     }
