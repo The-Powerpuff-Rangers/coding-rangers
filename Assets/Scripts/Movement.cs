@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
     private bool grounded;
+    private bool horizontalCollision;
 
 
 
@@ -48,6 +49,8 @@ public class Movement : MonoBehaviour
     {
         if (collision.gameObject.tag == "tile" || collision.gameObject.tag == "lift")
             grounded = true;
+
+        // if(collision.gameObject.tag == "tile")
 
     }
 
