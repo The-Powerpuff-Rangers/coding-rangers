@@ -547,7 +547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -24.13}
+  m_AnchoredPosition: {x: -44.3, y: -25.18}
   m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1999217135
@@ -573,16 +573,15 @@ MonoBehaviour:
   m_text: "HTML is a programming language used to create web pages.\r\nThere are
     3 parts that tie into basic HTML structure. Think of these as the \u201Cbuilding
     blocks\u201D of a web page:\_\_\r\n1. HTML version declaration\_\_\r\n2. Heading(s)\_\_\r\n3.
-    Body\r\n\r\n5 Important HTML Tags\_\_\r\n\r\n* The paragraph <P> tag:\_This tag
-    is responsible for the separation of paragraphs so the content doesn\u2019t run
-    together.\_\_\r\n* The anchor or link <A> tag:\_This tag creates a hyperlink
-    within the text. Within the code, the link is the attribute.\_\_\r\n* The bold
-    or <STRONG> tag:\_This tag adds boldness to your text of choice. This doesn\u2019t
-    apply to headings.\_\_\r\n* The italics or <EM> tag:\_This tag adds italics to
-    your text.\_\_\r\n* The headings 1-6 or <H1>, <H2>, <H3>, <H4>, <H5>, <H6> tags:\_These
-    tags are used for headings and subheadings on 6 different levels. H1 is the largest
-    and H6 is the smallest.\_\_\r\n\r\nOne of the simplest thing in HTML is making
-    a form! Let us learn how ^^"
+    Body\r\n\r\n5 Important HTML Tags\_\_\r\n\r\n* The <P> tag:\_This tag is responsible
+    for the separation of paragraphs so the content doesn\u2019t run together.\_\_\r\n*
+    The <A> tag:\_This tag creates a hyperlink within the text. Within the code,
+    the link is the attribute.\_\_\r\n* The bold or <STRONG> tag:\_This tag adds
+    boldness to your text of choice. This doesn\u2019t apply to headings.\_\_\r\n*
+    The italics or <EM> tag:\_This tag adds italics to your text.\_\_\r\n* The  <H1>,
+    <H2>, <H3>, <H4>, <H5>, <H6> tags:\_These tags are used for headings and subheadings
+    on 6 different levels. H1 is the largest and H6 is the smallest.\_\_\r\n\r\nOne
+    of the simplest thing in HTML is making a form! Let us learn how ^^"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -609,8 +608,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
