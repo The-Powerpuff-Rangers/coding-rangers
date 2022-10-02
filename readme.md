@@ -1,4 +1,4 @@
-# ScheduMate
+# Code Rangers
 
 
 Code Rangers is an educational , interacting and involving game designed for school students (mainly 5th class - 10th class)
