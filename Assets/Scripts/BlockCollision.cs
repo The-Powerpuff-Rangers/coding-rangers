@@ -36,6 +36,8 @@ public class BlockCollision : MonoBehaviour
             lessDestroy = false;
         }
 
+      
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

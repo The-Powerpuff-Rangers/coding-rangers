@@ -1,13 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Movement : MonoBehaviour
+public class Movement2 : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Rigidbody2D body;
     private Animator anim;
     private bool grounded;
-    private bool horizontalCollision;
 
     private double timeleft = 10;
 
@@ -40,7 +39,7 @@ public class Movement : MonoBehaviour
         anim.SetBool("Run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
 
-        if (GameObject.FindGameObjectWithTag("F").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("O").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("R").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("M").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled)
+        if (GameObject.FindGameObjectWithTag("I").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("N").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("P").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("U").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled && GameObject.FindGameObjectWithTag("T").GetComponent<TMPro.TextMeshProUGUI>().isActiveAndEnabled)
         {
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -60,27 +59,29 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.tag == "tile" || collision.gameObject.tag == "lift")
             grounded = true;
 
-        // if(collision.gameObject.tag == "tile")
-
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "FF" && Input.GetKey(KeyCode.Space))
+        if (collision.gameObject.tag == "II" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("F").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("I").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
-        else if (collision.gameObject.tag == "OO" && Input.GetKey(KeyCode.Space))
+        else if (collision.gameObject.tag == "NN" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("O").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("N").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
-        else if (collision.gameObject.tag == "RR" && Input.GetKey(KeyCode.Space))
+        else if (collision.gameObject.tag == "PP" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("R").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("P").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
-        else if (collision.gameObject.tag == "MM" && Input.GetKey(KeyCode.Space))
+        else if (collision.gameObject.tag == "UU" && Input.GetKey(KeyCode.Space))
         {
-            GameObject.FindGameObjectWithTag("M").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+            GameObject.FindGameObjectWithTag("U").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+        }
+        else if (collision.gameObject.tag == "TT" && Input.GetKey(KeyCode.Space))
+        {
+            GameObject.FindGameObjectWithTag("T").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
         }
 
     }
