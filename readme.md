@@ -48,13 +48,14 @@ Most importantly we are proud of ourselves as we learnt and implemented everythi
 
 ## Installation
 
-
-
-
+For the basic start, you can install Unity Hub(Latest LTS Version).
+After that, just install your editor of choice with your C# Support.
+And that's it you are all done with your installation.
 
 ## Future Scopes
 
-For our future scope we aim to scale this game to institution level and add more adventures, sa proper leaderboard system which not only keeps track of a student's level but an institution's level also among other partner schools to encourage a healthy competition among our clientele.
+For our future scope we aim to scale this game to institution level and add more adventures, and proper leaderboard system which not only keeps track of a student's level but an institution's level also among other partner schools to encourage a healthy competition among our clientele.
+We will also be creating the user database to persist the data and keep track of the high scorers of our game. This will give students a reason to take interst in the game and most importantly give them the knowledge of coding universe.
 
 ## 📸 Screenshots Time
 
