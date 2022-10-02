@@ -8,6 +8,8 @@ public class BlockCollision : MonoBehaviour
     private bool isThisBlock = false;
     private bool lessDestroy = false;
 
+   
+
     private void Update()
     {
         if (lessDestroy)
@@ -26,10 +28,7 @@ public class BlockCollision : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log(collision.gameObject.tag);
-
-
             isThisBlock = true;
-
 
         }
 
@@ -44,6 +43,8 @@ public class BlockCollision : MonoBehaviour
             lessDestroy = true;
             isThisBlock = false;
         }
+
+        // if(collision.gameobject.tag)
 
     }
 
