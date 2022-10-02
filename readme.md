@@ -63,7 +63,7 @@ We will also be creating the user database to persist the data and keep track of
 
 ![image](https://user-images.githubusercontent.com/77538369/193439681-6ec7dd03-c512-4d25-94e0-bd80b8b96502.png)
 
-![image](https://user-images.githubusercontent.com/77538369/193437333-13170c4f-b6ee-41b9-808c-e5917537c2ed.png)
+![image](https://user-images.githubusercontent.com/77538369/193439796-a52f879f-3926-4f0f-8eae-78eb7ac10ac8.png)
 
 ![image](https://user-images.githubusercontent.com/77538369/193439686-0283be30-f735-4efa-b77f-2af3d93f22e0.png)
 
