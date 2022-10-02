@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
 
         //sets animation parameters
         anim.SetBool("Run", horizontalInput != 0);
-        anim.SetBool("grounded", grounded);     
+        anim.SetBool("grounded", grounded);
     }
 
     private void Jump()
@@ -50,4 +50,27 @@ public class Movement : MonoBehaviour
             grounded = true;
 
     }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "FF" && Input.GetKey(KeyCode.Space))
+        {
+            GameObject.FindGameObjectWithTag("F").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+        }
+        else if (collision.gameObject.tag == "OO" && Input.GetKey(KeyCode.Space))
+        {
+            GameObject.FindGameObjectWithTag("O").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+        }
+        else if (collision.gameObject.tag == "RR" && Input.GetKey(KeyCode.Space))
+        {
+            GameObject.FindGameObjectWithTag("R").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+        }
+        else if (collision.gameObject.tag == "MM" && Input.GetKey(KeyCode.Space))
+        {
+            GameObject.FindGameObjectWithTag("M").GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
+        }
+
+    }
+
+
 }

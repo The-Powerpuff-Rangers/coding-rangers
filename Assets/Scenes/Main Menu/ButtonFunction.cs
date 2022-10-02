@@ -21,4 +21,10 @@ public class ButtonFunction : MonoBehaviour
         Application.Quit();
     }
 
+    public void Continue()
+    {
+        Debug.Log("Continue");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 }

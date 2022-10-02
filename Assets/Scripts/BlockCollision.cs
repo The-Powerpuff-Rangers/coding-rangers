@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BlockCollision : MonoBehaviour
@@ -8,7 +9,20 @@ public class BlockCollision : MonoBehaviour
     private bool isThisBlock = false;
     private bool lessDestroy = false;
 
-   
+    private GameObject form;
+
+
+
+    private void Start()
+    {
+
+
+
+
+
+
+
+    }
 
     private void Update()
     {
@@ -27,7 +41,8 @@ public class BlockCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log(collision.gameObject.tag);
+
+            // Debug.Log(collision.gameObject.tag);
             isThisBlock = true;
 
         }
@@ -39,12 +54,12 @@ public class BlockCollision : MonoBehaviour
 
         if (isThisBlock && Input.GetKey(KeyCode.Space))
         {
+
             Debug.Log("Destroy");
             lessDestroy = true;
             isThisBlock = false;
         }
 
-        // if(collision.gameobject.tag)
 
     }
 

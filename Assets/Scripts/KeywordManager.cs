@@ -22,7 +22,7 @@ public class KeywordManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var something = gameObject.GetComponent<TextMesh>();
+    
         // Add the keywords to the dictionary
         
     }
