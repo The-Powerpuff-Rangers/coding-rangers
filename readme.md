@@ -61,6 +61,20 @@ We will also be creating the user database to persist the data and keep track of
 
 ![image](https://user-images.githubusercontent.com/77538369/193437333-13170c4f-b6ee-41b9-808c-e5917537c2ed.png)
 
+![image](https://user-images.githubusercontent.com/77538369/193439676-065f1b84-c3b2-4971-b833-ddc40f97ef64.png)
+
+![image](https://user-images.githubusercontent.com/77538369/193439681-6ec7dd03-c512-4d25-94e0-bd80b8b96502.png)
+
+![image](https://user-images.githubusercontent.com/77538369/193439686-0283be30-f735-4efa-b77f-2af3d93f22e0.png)
+
+![image](https://user-images.githubusercontent.com/77538369/193439698-275533bb-0d85-4dda-8df1-a8181a77f5e8.png)
+
+![image](https://user-images.githubusercontent.com/77538369/193439706-f3a383d8-133a-455e-b144-01f31ad42f01.png)
+
+![image](https://user-images.githubusercontent.com/77538369/193439711-94cfc797-d024-4897-b95f-b166ccb14430.png)
+
+![image](https://user-images.githubusercontent.com/77538369/193439718-7d888a89-904d-4c41-aa34-4bd29f92f7b8.png)
+
 ## License
 
 It's the  GPL-3.0 license. For more details, see the license [here](https://github.com/The-Powerpuff-Rangers/coding-rangers/blob/master/LICENSE).
