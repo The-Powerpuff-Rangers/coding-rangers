@@ -3,6 +3,8 @@
 
 Code Rangers is an educational , interacting and involving game designed for school students (mainly 5th class - 10th class)
 
+![image](https://user-images.githubusercontent.com/77538369/193437336-a26caf20-7c31-48b6-ae7f-696911cc2845.png)
+
 ## Table of Contents
 
 - [Inspiration](#inspiration)
@@ -44,8 +46,6 @@ It was quite a challenge to not only learn about c# and unity but also make a wo
 We are proud that this project is ready for use.
 Most importantly we are proud of ourselves as we learnt and implemented everything and made an amazing game in just 24 hours.
 
-
-
 ## Installation
 
 
@@ -58,7 +58,7 @@ For our future scope we aim to scale this game to institution level and add more
 
 ## 📸 Screenshots Time
 
-
+![image](https://user-images.githubusercontent.com/77538369/193437333-13170c4f-b6ee-41b9-808c-e5917537c2ed.png)
 
 ## License
 
