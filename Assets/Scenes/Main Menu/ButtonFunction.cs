@@ -27,4 +27,10 @@ public class ButtonFunction : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void Restart()
+    {
+        Debug.Log("Restart");
+        SceneManager.LoadScene(0);
+    }
+
 }
